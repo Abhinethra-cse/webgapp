@@ -1,8 +1,6 @@
 import random
 from datetime import datetime
 
-app = Flask(__name__)
-
 
 greetings = ["hi","hello", "vanakkam", "hola"]
 greet_responses = [
@@ -61,4 +59,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
